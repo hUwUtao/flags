@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Flags Atlas Test</title>
+  <link rel="stylesheet" href="./flags.css">
+  <style>
+    :root{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;}
+    body{margin:20px;background:#fafafa;color:#1c1c1c;}
+    h1{margin:0 0 6px;font-size:20px;}
+    p{margin:0 0 14px;color:#555;font-size:13px;}
+    .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px;}
+    .tab{appearance:none;border:1px solid #d1d5db;background:#fff;color:#111827;padding:7px 10px;border-radius:8px;font-size:12px;font-weight:700;letter-spacing:.02em;cursor:pointer;}
+    .tab.active{background:#111827;color:#fff;border-color:#111827;}
+    .gauge{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px;align-items:center;}
+    .gauge-label{font-size:12px;font-weight:700;color:#4b5563;margin-right:2px;}
+    .gauge-btn{appearance:none;border:1px solid #d1d5db;background:#fff;color:#111827;padding:7px 10px;border-radius:8px;font-size:12px;font-weight:700;letter-spacing:.02em;cursor:pointer;}
+    .gauge-btn.active{background:#0f766e;color:#fff;border-color:#0f766e;}
+    .flash{appearance:none;border:1px solid #d1d5db;background:#fff;color:#111827;padding:7px 10px;border-radius:8px;font-size:12px;font-weight:700;letter-spacing:.02em;cursor:pointer;}
+    .flash.on{background:#b91c1c;color:#fff;border-color:#b91c1c;}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:10px;}
+    .item{margin:0;padding:8px;background:#fff;border:1px solid #e5e7eb;border-radius:8px;text-align:center;}
+    .preview{--u:url('./flags-atlas.svg');}
+    .preview .item .flg{display:block;margin:0 auto 6px;}
+    figcaption{font-size:12px;font-weight:600;letter-spacing:.02em;}
+  </style>
+</head>
+<body>
+  <h1>Flags Atlas Preview</h1>
+  <p>189 flags, 14x14 tiles, 24px each.</p>
+  <div class="toolbar">
+    <button type="button" class="tab active" data-src="./flags-atlas.svg">SVG</button>
+    <button type="button" class="tab" data-src="./flags-atlas.png">PNG</button>
+    <button type="button" class="tab" data-src="./flags-atlas.webp">WEBP</button>
+    <button type="button" class="flash" id="flash-toggle">Flash Compare</button>
+  </div>
+  <div class="gauge">
+    <span class="gauge-label">Gauge</span>
+    <button type="button" class="gauge-btn" data-size="8">8px</button>
+    <button type="button" class="gauge-btn" data-size="16">16px</button>
+    <button type="button" class="gauge-btn active" data-size="24">24px</button>
+  </div>
+  <section class="preview" id="preview">
+    <section class="grid">
+<figure class="item"><span class="flg ad" title="AD"></span><figcaption>AD</figcaption></figure>
+<figure class="item"><span class="flg ae" title="AE"></span><figcaption>AE</figcaption></figure>
+<figure class="item"><span class="flg af" title="AF"></span><figcaption>AF</figcaption></figure>
+<figure class="item"><span class="flg ag" title="AG"></span><figcaption>AG</figcaption></figure>
+<figure class="item"><span class="flg al" title="AL"></span><figcaption>AL</figcaption></figure>
+<figure class="item"><span class="flg am" title="AM"></span><figcaption>AM</figcaption></figure>
+<figure class="item"><span class="flg ao" title="AO"></span><figcaption>AO</figcaption></figure>
+<figure class="item"><span class="flg ar" title="AR"></span><figcaption>AR</figcaption></figure>
+<figure class="item"><span class="flg at" title="AT"></span><figcaption>AT</figcaption></figure>
+<figure class="item"><span class="flg au" title="AU"></span><figcaption>AU</figcaption></figure>
+<figure class="item"><span class="flg az" title="AZ"></span><figcaption>AZ</figcaption></figure>
+<figure class="item"><span class="flg ba" title="BA"></span><figcaption>BA</figcaption></figure>
+<figure class="item"><span class="flg bb" title="BB"></span><figcaption>BB</figcaption></figure>
+<figure class="item"><span class="flg bd" title="BD"></span><figcaption>BD</figcaption></figure>
+<figure class="item"><span class="flg be" title="BE"></span><figcaption>BE</figcaption></figure>
+<figure class="item"><span class="flg bf" title="BF"></span><figcaption>BF</figcaption></figure>
+<figure class="item"><span class="flg bg" title="BG"></span><figcaption>BG</figcaption></figure>
+<figure class="item"><span class="flg bh" title="BH"></span><figcaption>BH</figcaption></figure>
+<figure class="item"><span class="flg bi" title="BI"></span><figcaption>BI</figcaption></figure>
+<figure class="item"><span class="flg bj" title="BJ"></span><figcaption>BJ</figcaption></figure>
+<figure class="item"><span class="flg bn" title="BN"></span><figcaption>BN</figcaption></figure>
+<figure class="item"><span class="flg bo" title="BO"></span><figcaption>BO</figcaption></figure>
+<figure class="item"><span class="flg br" title="BR"></span><figcaption>BR</figcaption></figure>
+<figure class="item"><span class="flg bs" title="BS"></span><figcaption>BS</figcaption></figure>
+<figure class="item"><span class="flg bt" title="BT"></span><figcaption>BT</figcaption></figure>
+<figure class="item"><span class="flg bw" title="BW"></span><figcaption>BW</figcaption></figure>
+<figure class="item"><span class="flg by" title="BY"></span><figcaption>BY</figcaption></figure>
+<figure class="item"><span class="flg bz" title="BZ"></span><figcaption>BZ</figcaption></figure>
+<figure class="item"><span class="flg ca" title="CA"></span><figcaption>CA</figcaption></figure>
+<figure class="item"><span class="flg cd" title="CD"></span><figcaption>CD</figcaption></figure>
+<figure class="item"><span class="flg cf" title="CF"></span><figcaption>CF</figcaption></figure>
+<figure class="item"><span class="flg ch" title="CH"></span><figcaption>CH</figcaption></figure>
+<figure class="item"><span class="flg cl" title="CL"></span><figcaption>CL</figcaption></figure>
+<figure class="item"><span class="flg cm" title="CM"></span><figcaption>CM</figcaption></figure>
+<figure class="item"><span class="flg cn" title="CN"></span><figcaption>CN</figcaption></figure>
+<figure class="item"><span class="flg co" title="CO"></span><figcaption>CO</figcaption></figure>
+<figure class="item"><span class="flg cr" title="CR"></span><figcaption>CR</figcaption></figure>
+<figure class="item"><span class="flg cu" title="CU"></span><figcaption>CU</figcaption></figure>
+<figure class="item"><span class="flg cy" title="CY"></span><figcaption>CY</figcaption></figure>
+<figure class="item"><span class="flg cz" title="CZ"></span><figcaption>CZ</figcaption></figure>
+<figure class="item"><span class="flg de" title="DE"></span><figcaption>DE</figcaption></figure>
+<figure class="item"><span class="flg dj" title="DJ"></span><figcaption>DJ</figcaption></figure>
+<figure class="item"><span class="flg dk" title="DK"></span><figcaption>DK</figcaption></figure>
+<figure class="item"><span class="flg dm" title="DM"></span><figcaption>DM</figcaption></figure>
+<figure class="item"><span class="flg do" title="DO"></span><figcaption>DO</figcaption></figure>
+<figure class="item"><span class="flg dz" title="DZ"></span><figcaption>DZ</figcaption></figure>
+<figure class="item"><span class="flg ec" title="EC"></span><figcaption>EC</figcaption></figure>
+<figure class="item"><span class="flg ee" title="EE"></span><figcaption>EE</figcaption></figure>
+<figure class="item"><span class="flg eg" title="EG"></span><figcaption>EG</figcaption></figure>
+<figure class="item"><span class="flg er" title="ER"></span><figcaption>ER</figcaption></figure>
+<figure class="item"><span class="flg es" title="ES"></span><figcaption>ES</figcaption></figure>
+<figure class="item"><span class="flg et" title="ET"></span><figcaption>ET</figcaption></figure>
+<figure class="item"><span class="flg fi" title="FI"></span><figcaption>FI</figcaption></figure>
+<figure class="item"><span class="flg fj" title="FJ"></span><figcaption>FJ</figcaption></figure>
+<figure class="item"><span class="flg fm" title="FM"></span><figcaption>FM</figcaption></figure>
+<figure class="item"><span class="flg fr" title="FR"></span><figcaption>FR</figcaption></figure>
+<figure class="item"><span class="flg ga" title="GA"></span><figcaption>GA</figcaption></figure>
+<figure class="item"><span class="flg gb" title="GB"></span><figcaption>GB</figcaption></figure>
+<figure class="item"><span class="flg gd" title="GD"></span><figcaption>GD</figcaption></figure>
+<figure class="item"><span class="flg ge" title="GE"></span><figcaption>GE</figcaption></figure>
+<figure class="item"><span class="flg gh" title="GH"></span><figcaption>GH</figcaption></figure>
+<figure class="item"><span class="flg gm" title="GM"></span><figcaption>GM</figcaption></figure>
+<figure class="item"><span class="flg gn" title="GN"></span><figcaption>GN</figcaption></figure>
+<figure class="item"><span class="flg gq" title="GQ"></span><figcaption>GQ</figcaption></figure>
+<figure class="item"><span class="flg gr" title="GR"></span><figcaption>GR</figcaption></figure>
+<figure class="item"><span class="flg gt" title="GT"></span><figcaption>GT</figcaption></figure>
+<figure class="item"><span class="flg gw" title="GW"></span><figcaption>GW</figcaption></figure>
+<figure class="item"><span class="flg gy" title="GY"></span><figcaption>GY</figcaption></figure>
+<figure class="item"><span class="flg hn" title="HN"></span><figcaption>HN</figcaption></figure>
+<figure class="item"><span class="flg hr" title="HR"></span><figcaption>HR</figcaption></figure>
+<figure class="item"><span class="flg ht" title="HT"></span><figcaption>HT</figcaption></figure>
+<figure class="item"><span class="flg hu" title="HU"></span><figcaption>HU</figcaption></figure>
+<figure class="item"><span class="flg id" title="ID"></span><figcaption>ID</figcaption></figure>
+<figure class="item"><span class="flg ie" title="IE"></span><figcaption>IE</figcaption></figure>
+<figure class="item"><span class="flg il" title="IL"></span><figcaption>IL</figcaption></figure>
+<figure class="item"><span class="flg in" title="IN"></span><figcaption>IN</figcaption></figure>
+<figure class="item"><span class="flg iq" title="IQ"></span><figcaption>IQ</figcaption></figure>
+<figure class="item"><span class="flg ir" title="IR"></span><figcaption>IR</figcaption></figure>
+<figure class="item"><span class="flg is" title="IS"></span><figcaption>IS</figcaption></figure>
+<figure class="item"><span class="flg it" title="IT"></span><figcaption>IT</figcaption></figure>
+<figure class="item"><span class="flg jm" title="JM"></span><figcaption>JM</figcaption></figure>
+<figure class="item"><span class="flg jo" title="JO"></span><figcaption>JO</figcaption></figure>
+<figure class="item"><span class="flg jp" title="JP"></span><figcaption>JP</figcaption></figure>
+<figure class="item"><span class="flg ke" title="KE"></span><figcaption>KE</figcaption></figure>
+<figure class="item"><span class="flg kg" title="KG"></span><figcaption>KG</figcaption></figure>
+<figure class="item"><span class="flg kh" title="KH"></span><figcaption>KH</figcaption></figure>
+<figure class="item"><span class="flg ki" title="KI"></span><figcaption>KI</figcaption></figure>
+<figure class="item"><span class="flg km" title="KM"></span><figcaption>KM</figcaption></figure>
+<figure class="item"><span class="flg kn" title="KN"></span><figcaption>KN</figcaption></figure>
+<figure class="item"><span class="flg kp" title="KP"></span><figcaption>KP</figcaption></figure>
+<figure class="item"><span class="flg kr" title="KR"></span><figcaption>KR</figcaption></figure>
+<figure class="item"><span class="flg kw" title="KW"></span><figcaption>KW</figcaption></figure>
+<figure class="item"><span class="flg kz" title="KZ"></span><figcaption>KZ</figcaption></figure>
+<figure class="item"><span class="flg la" title="LA"></span><figcaption>LA</figcaption></figure>
+<figure class="item"><span class="flg lb" title="LB"></span><figcaption>LB</figcaption></figure>
+<figure class="item"><span class="flg lc" title="LC"></span><figcaption>LC</figcaption></figure>
+<figure class="item"><span class="flg li" title="LI"></span><figcaption>LI</figcaption></figure>
+<figure class="item"><span class="flg lk" title="LK"></span><figcaption>LK</figcaption></figure>
+<figure class="item"><span class="flg lr" title="LR"></span><figcaption>LR</figcaption></figure>
+<figure class="item"><span class="flg ls" title="LS"></span><figcaption>LS</figcaption></figure>
+<figure class="item"><span class="flg lt" title="LT"></span><figcaption>LT</figcaption></figure>
+<figure class="item"><span class="flg lu" title="LU"></span><figcaption>LU</figcaption></figure>
+<figure class="item"><span class="flg lv" title="LV"></span><figcaption>LV</figcaption></figure>
+<figure class="item"><span class="flg ly" title="LY"></span><figcaption>LY</figcaption></figure>
+<figure class="item"><span class="flg ma" title="MA"></span><figcaption>MA</figcaption></figure>
+<figure class="item"><span class="flg mc" title="MC"></span><figcaption>MC</figcaption></figure>
+<figure class="item"><span class="flg md" title="MD"></span><figcaption>MD</figcaption></figure>
+<figure class="item"><span class="flg me" title="ME"></span><figcaption>ME</figcaption></figure>
+<figure class="item"><span class="flg mg" title="MG"></span><figcaption>MG</figcaption></figure>
+<figure class="item"><span class="flg mh" title="MH"></span><figcaption>MH</figcaption></figure>
+<figure class="item"><span class="flg mk" title="MK"></span><figcaption>MK</figcaption></figure>
+<figure class="item"><span class="flg ml" title="ML"></span><figcaption>ML</figcaption></figure>
+<figure class="item"><span class="flg mm" title="MM"></span><figcaption>MM</figcaption></figure>
+<figure class="item"><span class="flg mn" title="MN"></span><figcaption>MN</figcaption></figure>
+<figure class="item"><span class="flg mr" title="MR"></span><figcaption>MR</figcaption></figure>
+<figure class="item"><span class="flg mt" title="MT"></span><figcaption>MT</figcaption></figure>
+<figure class="item"><span class="flg mu" title="MU"></span><figcaption>MU</figcaption></figure>
+<figure class="item"><span class="flg mv" title="MV"></span><figcaption>MV</figcaption></figure>
+<figure class="item"><span class="flg mw" title="MW"></span><figcaption>MW</figcaption></figure>
+<figure class="item"><span class="flg mx" title="MX"></span><figcaption>MX</figcaption></figure>
+<figure class="item"><span class="flg my" title="MY"></span><figcaption>MY</figcaption></figure>
+<figure class="item"><span class="flg mz" title="MZ"></span><figcaption>MZ</figcaption></figure>
+<figure class="item"><span class="flg na" title="NA"></span><figcaption>NA</figcaption></figure>
+<figure class="item"><span class="flg ne" title="NE"></span><figcaption>NE</figcaption></figure>
+<figure class="item"><span class="flg ng" title="NG"></span><figcaption>NG</figcaption></figure>
+<figure class="item"><span class="flg ni" title="NI"></span><figcaption>NI</figcaption></figure>
+<figure class="item"><span class="flg nl" title="NL"></span><figcaption>NL</figcaption></figure>
+<figure class="item"><span class="flg no" title="NO"></span><figcaption>NO</figcaption></figure>
+<figure class="item"><span class="flg np" title="NP"></span><figcaption>NP</figcaption></figure>
+<figure class="item"><span class="flg nr" title="NR"></span><figcaption>NR</figcaption></figure>
+<figure class="item"><span class="flg nz" title="NZ"></span><figcaption>NZ</figcaption></figure>
+<figure class="item"><span class="flg om" title="OM"></span><figcaption>OM</figcaption></figure>
+<figure class="item"><span class="flg pa" title="PA"></span><figcaption>PA</figcaption></figure>
+<figure class="item"><span class="flg pe" title="PE"></span><figcaption>PE</figcaption></figure>
+<figure class="item"><span class="flg pg" title="PG"></span><figcaption>PG</figcaption></figure>
+<figure class="item"><span class="flg ph" title="PH"></span><figcaption>PH</figcaption></figure>
+<figure class="item"><span class="flg pk" title="PK"></span><figcaption>PK</figcaption></figure>
+<figure class="item"><span class="flg pl" title="PL"></span><figcaption>PL</figcaption></figure>
+<figure class="item"><span class="flg pt" title="PT"></span><figcaption>PT</figcaption></figure>
+<figure class="item"><span class="flg pw" title="PW"></span><figcaption>PW</figcaption></figure>
+<figure class="item"><span class="flg py" title="PY"></span><figcaption>PY</figcaption></figure>
+<figure class="item"><span class="flg qa" title="QA"></span><figcaption>QA</figcaption></figure>
+<figure class="item"><span class="flg ro" title="RO"></span><figcaption>RO</figcaption></figure>
+<figure class="item"><span class="flg rs" title="RS"></span><figcaption>RS</figcaption></figure>
+<figure class="item"><span class="flg ru" title="RU"></span><figcaption>RU</figcaption></figure>
+<figure class="item"><span class="flg rw" title="RW"></span><figcaption>RW</figcaption></figure>
+<figure class="item"><span class="flg sa" title="SA"></span><figcaption>SA</figcaption></figure>
+<figure class="item"><span class="flg sb" title="SB"></span><figcaption>SB</figcaption></figure>
+<figure class="item"><span class="flg sc" title="SC"></span><figcaption>SC</figcaption></figure>
+<figure class="item"><span class="flg se" title="SE"></span><figcaption>SE</figcaption></figure>
+<figure class="item"><span class="flg sg" title="SG"></span><figcaption>SG</figcaption></figure>
+<figure class="item"><span class="flg si" title="SI"></span><figcaption>SI</figcaption></figure>
+<figure class="item"><span class="flg sk" title="SK"></span><figcaption>SK</figcaption></figure>
+<figure class="item"><span class="flg sl" title="SL"></span><figcaption>SL</figcaption></figure>
+<figure class="item"><span class="flg sm" title="SM"></span><figcaption>SM</figcaption></figure>
+<figure class="item"><span class="flg sn" title="SN"></span><figcaption>SN</figcaption></figure>
+<figure class="item"><span class="flg so" title="SO"></span><figcaption>SO</figcaption></figure>
+<figure class="item"><span class="flg sr" title="SR"></span><figcaption>SR</figcaption></figure>
+<figure class="item"><span class="flg ss" title="SS"></span><figcaption>SS</figcaption></figure>
+<figure class="item"><span class="flg st" title="ST"></span><figcaption>ST</figcaption></figure>
+<figure class="item"><span class="flg sv" title="SV"></span><figcaption>SV</figcaption></figure>
+<figure class="item"><span class="flg sy" title="SY"></span><figcaption>SY</figcaption></figure>
+<figure class="item"><span class="flg sz" title="SZ"></span><figcaption>SZ</figcaption></figure>
+<figure class="item"><span class="flg td" title="TD"></span><figcaption>TD</figcaption></figure>
+<figure class="item"><span class="flg tg" title="TG"></span><figcaption>TG</figcaption></figure>
+<figure class="item"><span class="flg th" title="TH"></span><figcaption>TH</figcaption></figure>
+<figure class="item"><span class="flg tj" title="TJ"></span><figcaption>TJ</figcaption></figure>
+<figure class="item"><span class="flg tl" title="TL"></span><figcaption>TL</figcaption></figure>
+<figure class="item"><span class="flg tm" title="TM"></span><figcaption>TM</figcaption></figure>
+<figure class="item"><span class="flg tn" title="TN"></span><figcaption>TN</figcaption></figure>
+<figure class="item"><span class="flg to" title="TO"></span><figcaption>TO</figcaption></figure>
+<figure class="item"><span class="flg tr" title="TR"></span><figcaption>TR</figcaption></figure>
+<figure class="item"><span class="flg tt" title="TT"></span><figcaption>TT</figcaption></figure>
+<figure class="item"><span class="flg tv" title="TV"></span><figcaption>TV</figcaption></figure>
+<figure class="item"><span class="flg tz" title="TZ"></span><figcaption>TZ</figcaption></figure>
+<figure class="item"><span class="flg ua" title="UA"></span><figcaption>UA</figcaption></figure>
+<figure class="item"><span class="flg ug" title="UG"></span><figcaption>UG</figcaption></figure>
+<figure class="item"><span class="flg us" title="US"></span><figcaption>US</figcaption></figure>
+<figure class="item"><span class="flg uy" title="UY"></span><figcaption>UY</figcaption></figure>
+<figure class="item"><span class="flg uz" title="UZ"></span><figcaption>UZ</figcaption></figure>
+<figure class="item"><span class="flg vc" title="VC"></span><figcaption>VC</figcaption></figure>
+<figure class="item"><span class="flg ve" title="VE"></span><figcaption>VE</figcaption></figure>
+<figure class="item"><span class="flg vn" title="VN"></span><figcaption>VN</figcaption></figure>
+<figure class="item"><span class="flg vu" title="VU"></span><figcaption>VU</figcaption></figure>
+<figure class="item"><span class="flg ws" title="WS"></span><figcaption>WS</figcaption></figure>
+<figure class="item"><span class="flg ye" title="YE"></span><figcaption>YE</figcaption></figure>
+<figure class="item"><span class="flg za" title="ZA"></span><figcaption>ZA</figcaption></figure>
+<figure class="item"><span class="flg zm" title="ZM"></span><figcaption>ZM</figcaption></figure>
+<figure class="item"><span class="flg zw" title="ZW"></span><figcaption>ZW</figcaption></figure>
+    </section>
+  </section>
+  <script>
+    const preview = document.getElementById('preview');
+    const tabs = Array.from(document.querySelectorAll('.tab'));
+    const flashToggle = document.getElementById('flash-toggle');
+    const gaugeButtons = Array.from(document.querySelectorAll('.gauge-btn'));
+    const sources = tabs.map((tab) => tab.dataset.src);
+    const baseTileSize = 24;
+    let flashTimer = null;
+    let activeIndex = 0;
+    const setActive = (index) => {
+      activeIndex = index;
+      const src = sources[index];
+      preview.style.setProperty('--u', "url('" + src + "')");
+      tabs.forEach((tab, i) => tab.classList.toggle('active', i === index));
+    };
+    const setGauge = (size) => {
+      const scale = size / baseTileSize;
+      preview.style.setProperty('--s', String(scale));
+      gaugeButtons.forEach((btn) => btn.classList.toggle('active', Number(btn.dataset.size) === size));
+    };
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => {
+        if (flashTimer) return;
+        setActive(index);
+      });
+    });
+    gaugeButtons.forEach((btn) => {
+      btn.addEventListener('click', () => setGauge(Number(btn.dataset.size)));
+    });
+    setGauge(24);
+    flashToggle.addEventListener('click', () => {
+      if (flashTimer) {
+        clearInterval(flashTimer);
+        flashTimer = null;
+        flashToggle.classList.remove('on');
+        return;
+      }
+      flashToggle.classList.add('on');
+      flashTimer = setInterval(() => {
+        const next = (activeIndex + 1) % sources.length;
+        setActive(next);
+      }, 260);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "flags",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build:atlas": "bun scripts/build-atlas.ts && bun scripts/optimize-svgs.ts && bun scripts/build-inline-css.ts && bun scripts/rasterize-atlas.ts",
+    "build:inline-css": "bun scripts/build-inline-css.ts",
+    "optimize:svgs": "bun scripts/optimize-svgs.ts",
+    "rasterize:atlas": "bun scripts/rasterize-atlas.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "sharp": "^0.34.5",
+    "svgo": "^4.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
