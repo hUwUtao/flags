@@ -1,19 +1,62 @@
 # flags
 
-Flag assets are compacted into a single square SVG atlas.
+Compact flag atlas + CSS sprites, ready for CDN usage.
 
-## Build atlas
+## Build
 
 ```bash
 bun run build:atlas
 ```
 
-This generates:
+Outputs in `generated/`:
 
-- `generated/flags-atlas.svg` (single 14x14 atlas, 24px tiles)
-- `generated/flags-atlas.png` (rasterized atlas)
-- `generated/flags-atlas.webp` (rasterized atlas)
-- `generated/flags-index.json` (code/index/x/y mapping)
-- `generated/flags.css` (`.flg.xx` sprite selectors with integer `--x/--y` grid vars)
-- `generated/flags-inline.css` (same CSS with SVG atlas embedded as UTF-8 data URI, non-base64)
-- `generated/test.html` (preview grid)
+- `flags-atlas.svg`
+- `flags-atlas.png`
+- `flags-atlas.webp`
+- `flags-index.json`
+- `flags.css`
+- `flags-inline.css` (embedded SVG data URI, non-base64)
+- `test.html`
+
+## jsDelivr Guide
+
+Generated files are committed so jsDelivr can serve them directly from the repo.
+
+Live now:
+
+- `https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags.css`
+- `https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags-inline.css`
+
+### 1) Use latest (fast setup)
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags.css" />
+```
+
+### 2) Use pinned version (recommended)
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags.css" />
+```
+
+### 3) Use inline CSS variant (single file)
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags-inline.css" />
+```
+
+## Usage
+
+```html
+<span class="flg us"></span>
+<span class="flg jp"></span>
+<span class="flg br"></span>
+```
+
+Optional sizing:
+
+```css
+:root { --s: 1; }   /* base 24px */
+.sm { --s: .6667; } /* 16px */
+.xs { --s: .3333; } /* 8px */
+```
