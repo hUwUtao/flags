@@ -13,16 +13,16 @@ caveats:
 
 preview:
 
-<img src="https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags-atlas.svg#flag-vn" alt="Vietnam flag" />
-<img src="https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags-atlas.svg#flag-us" alt="Vietnam flag" />
-<img src="https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags-atlas.svg#flag-jp" alt="Vietnam flag" />
+<img src="https://cdn.jsdelivr.net/gh/hUwUtao/flags/generated/flags-atlas.svg#flag-vn" alt="Vietnam flag" />
+<img src="https://cdn.jsdelivr.net/gh/hUwUtao/flags/generated/flags-atlas.svg#flag-us" alt="Vietnam flag" />
+<img src="https://cdn.jsdelivr.net/gh/hUwUtao/flags/generated/flags-atlas.svg#flag-jp" alt="Vietnam flag" />
 
 ## Quick Start (CDN)
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hUwUtao/flags/generated/flags.css" />
 <!-- or: -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags-inline.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hUwUtao/flags/generated/flags-inline.css" />
 ```
 
 Use it:
@@ -50,7 +50,7 @@ Examples:
 ## SVG Fragment (<img>)
 
 ```html
-<img src="https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags-atlas.svg#flag-vn" alt="Vietnam flag" />
+<img src="https://cdn.jsdelivr.net/gh/hUwUtao/flags/generated/flags-atlas.svg#flag-vn" alt="Vietnam flag" />
 ```
 
 ## JSX / TSX (Local Assets)
