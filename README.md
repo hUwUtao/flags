@@ -13,9 +13,7 @@ caveats:
 
 preview:
 
-<img src="https://cdn.jsdelivr.net/gh/hUwUtao/flags/generated/flags-atlas.svg#flag-vn" alt="Vietnam flag" />
-<img src="https://cdn.jsdelivr.net/gh/hUwUtao/flags/generated/flags-atlas.svg#flag-us" alt="Vietnam flag" />
-<img src="https://cdn.jsdelivr.net/gh/hUwUtao/flags/generated/flags-atlas.svg#flag-jp" alt="Vietnam flag" />
+<img src="https://cdn.jsdelivr.net/gh/hUwUtao/flags/generated/flags-atlas.svg" alt="flags latest" />
 
 ## Quick Start (CDN)
 
