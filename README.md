@@ -1,62 +1,82 @@
-# flags
+# Flags
 
-Compact flag atlas + CSS sprites, ready for CDN usage.
+Flags of many country on Earth
 
-## Build
+- Comprehensible packing
+- Easy to use 
+- To work with modern or old browser
 
-```bash
-bun run build:atlas
-```
+caveats:
 
-Outputs in `generated/`:
+- May not natively work with `<select>`
+- Quite large if not lossless compressed (160kb raw | 31kb brotli)
 
-- `flags-atlas.svg`
-- `flags-atlas.png`
-- `flags-atlas.webp`
-- `flags-index.json`
-- `flags.css`
-- `flags-inline.css` (embedded SVG data URI, non-base64)
-- `test.html`
+preview:
 
-## jsDelivr Guide
+<img src="https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags-atlas.svg#flag-vn" alt="Vietnam flag" />
+<img src="https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags-atlas.svg#flag-us" alt="Vietnam flag" />
+<img src="https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags-atlas.svg#flag-jp" alt="Vietnam flag" />
 
-Generated files are committed so jsDelivr can serve them directly from the repo.
-
-Live now:
-
-- `https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags.css`
-- `https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags-inline.css`
-
-### 1) Use latest (fast setup)
+## Quick Start (CDN)
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags.css" />
-```
-
-### 2) Use pinned version (recommended)
-
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags.css" />
-```
-
-### 3) Use inline CSS variant (single file)
-
-```html
+<!-- or: -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags-inline.css" />
 ```
 
-## Usage
+Use it:
 
 ```html
+<span class="flg vn"></span>
 <span class="flg us"></span>
 <span class="flg jp"></span>
-<span class="flg br"></span>
 ```
 
-Optional sizing:
+## Size / Crop
 
 ```css
-:root { --s: 1; }   /* base 24px */
-.sm { --s: .6667; } /* 16px */
-.xs { --s: .3333; } /* 8px */
+:root { --s: 1; }  /* scale (24px base) */
+:root { --ci: 1; } /* circle inset (px) */
+```
+
+Examples:
+
+```css
+.f16 { --s: .6667; } /* 16px */
+.f8 { --s: .3333; }  /* 8px */
+```
+
+## SVG Fragment (<img>)
+
+```html
+<img src="https://cdn.jsdelivr.net/gh/hUwUtao/flags@master/generated/flags-atlas.svg#flag-vn" alt="Vietnam flag" />
+```
+
+## JSX / TSX (Local Assets)
+
+Copy into your app:
+
+- `generated/flags-inline.css` (single file), or
+- `generated/flags.css` + `generated/flags-atlas.svg`
+
+Import once in your entry:
+
+```tsx
+import "./assets/flags/flags.css";
+// or: import "./assets/flags/flags-inline.css";
+```
+
+Use anywhere:
+
+```tsx
+export function DemoFlags() {
+  return (
+    <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+      <span className="flg vn"></span>
+      <span className="flg us"></span>
+      <span className="flg jp" style={{ ["--s" as any]: 0.6667 }}></span>
+    </div>
+  );
+}
 ```

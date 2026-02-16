@@ -12,9 +12,10 @@ const toDataUri = (svg: string): string => {
     .replace(/%20/g, " ")
     .replace(/%3D/g, "=")
     .replace(/%3A/g, ":")
-    .replace(/%2F/g, "/");
+    .replace(/%2F/g, "/")
+    .replace(/%22/g, '"');
 
-  return `url(\"data:image/svg+xml,${encoded}\")`;
+  return `url('data:image/svg+xml,${encoded}')`;
 };
 
 const main = async (): Promise<void> => {

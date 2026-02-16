@@ -98,7 +98,7 @@ const main = async (): Promise<void> => {
     const col = index % cols;
     const x = col * TILE_SIZE;
     const y = row * TILE_SIZE;
-    const symbolId = `flag-${code.toLowerCase()}`;
+    const symbolId = `flg${code.toLowerCase()}`;
 
     entries.push({
       code,
@@ -120,6 +120,13 @@ const main = async (): Promise<void> => {
     )
     .join("\n");
 
+  const views = entries
+    .map(
+      (entry) =>
+        `<view id="flag-${entry.code.toLowerCase()}" viewBox="${entry.x} ${entry.y} ${TILE_SIZE} ${TILE_SIZE}"/>`,
+    )
+    .join("\n");
+
   const uses = entries
     .map(
       (entry) =>
@@ -131,6 +138,7 @@ const main = async (): Promise<void> => {
     `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">`,
     `<defs>`,
     symbols,
+    views,
     `</defs>`,
     uses,
     `</svg>`,

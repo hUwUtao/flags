@@ -13,7 +13,7 @@
       "col": 0,
       "x": 0,
       "y": 0,
-      "symbolId": "flag-ad"
+      "symbolId": "flgad"
     },
     {
       "code": "AE",
@@ -22,7 +22,7 @@
       "col": 1,
       "x": 24,
       "y": 0,
-      "symbolId": "flag-ae"
+      "symbolId": "flgae"
     },
     {
       "code": "AF",
@@ -31,7 +31,7 @@
       "col": 2,
       "x": 48,
       "y": 0,
-      "symbolId": "flag-af"
+      "symbolId": "flgaf"
     },
     {
       "code": "AG",
@@ -40,7 +40,7 @@
       "col": 3,
       "x": 72,
       "y": 0,
-      "symbolId": "flag-ag"
+      "symbolId": "flgag"
     },
     {
       "code": "AL",
@@ -49,7 +49,7 @@
       "col": 4,
       "x": 96,
       "y": 0,
-      "symbolId": "flag-al"
+      "symbolId": "flgal"
     },
     {
       "code": "AM",
@@ -58,7 +58,7 @@
       "col": 5,
       "x": 120,
       "y": 0,
-      "symbolId": "flag-am"
+      "symbolId": "flgam"
     },
     {
       "code": "AO",
@@ -67,7 +67,7 @@
       "col": 6,
       "x": 144,
       "y": 0,
-      "symbolId": "flag-ao"
+      "symbolId": "flgao"
     },
     {
       "code": "AR",
@@ -76,7 +76,7 @@
       "col": 7,
       "x": 168,
       "y": 0,
-      "symbolId": "flag-ar"
+      "symbolId": "flgar"
     },
     {
       "code": "AT",
@@ -85,7 +85,7 @@
       "col": 8,
       "x": 192,
       "y": 0,
-      "symbolId": "flag-at"
+      "symbolId": "flgat"
     },
     {
       "code": "AU",
@@ -94,7 +94,7 @@
       "col": 9,
       "x": 216,
       "y": 0,
-      "symbolId": "flag-au"
+      "symbolId": "flgau"
     },
     {
       "code": "AZ",
@@ -103,7 +103,7 @@
       "col": 10,
       "x": 240,
       "y": 0,
-      "symbolId": "flag-az"
+      "symbolId": "flgaz"
     },
     {
       "code": "BA",
@@ -112,7 +112,7 @@
       "col": 11,
       "x": 264,
       "y": 0,
-      "symbolId": "flag-ba"
+      "symbolId": "flgba"
     },
     {
       "code": "BB",
@@ -121,7 +121,7 @@
       "col": 12,
       "x": 288,
       "y": 0,
-      "symbolId": "flag-bb"
+      "symbolId": "flgbb"
     },
     {
       "code": "BD",
@@ -130,7 +130,7 @@
       "col": 13,
       "x": 312,
       "y": 0,
-      "symbolId": "flag-bd"
+      "symbolId": "flgbd"
     },
     {
       "code": "BE",
@@ -139,7 +139,7 @@
       "col": 0,
       "x": 0,
       "y": 24,
-      "symbolId": "flag-be"
+      "symbolId": "flgbe"
     },
     {
       "code": "BF",
@@ -148,7 +148,7 @@
       "col": 1,
       "x": 24,
       "y": 24,
-      "symbolId": "flag-bf"
+      "symbolId": "flgbf"
     },
     {
       "code": "BG",
@@ -157,7 +157,7 @@
       "col": 2,
       "x": 48,
       "y": 24,
-      "symbolId": "flag-bg"
+      "symbolId": "flgbg"
     },
     {
       "code": "BH",
@@ -166,7 +166,7 @@
       "col": 3,
       "x": 72,
       "y": 24,
-      "symbolId": "flag-bh"
+      "symbolId": "flgbh"
     },
     {
       "code": "BI",
@@ -175,7 +175,7 @@
       "col": 4,
       "x": 96,
       "y": 24,
-      "symbolId": "flag-bi"
+      "symbolId": "flgbi"
     },
     {
       "code": "BJ",
@@ -184,7 +184,7 @@
       "col": 5,
       "x": 120,
       "y": 24,
-      "symbolId": "flag-bj"
+      "symbolId": "flgbj"
     },
     {
       "code": "BN",
@@ -193,7 +193,7 @@
       "col": 6,
       "x": 144,
       "y": 24,
-      "symbolId": "flag-bn"
+      "symbolId": "flgbn"
     },
     {
       "code": "BO",
@@ -202,7 +202,7 @@
       "col": 7,
       "x": 168,
       "y": 24,
-      "symbolId": "flag-bo"
+      "symbolId": "flgbo"
     },
     {
       "code": "BR",
@@ -211,7 +211,7 @@
       "col": 8,
       "x": 192,
       "y": 24,
-      "symbolId": "flag-br"
+      "symbolId": "flgbr"
     },
     {
       "code": "BS",
@@ -220,7 +220,7 @@
       "col": 9,
       "x": 216,
       "y": 24,
-      "symbolId": "flag-bs"
+      "symbolId": "flgbs"
     },
     {
       "code": "BT",
@@ -229,7 +229,7 @@
       "col": 10,
       "x": 240,
       "y": 24,
-      "symbolId": "flag-bt"
+      "symbolId": "flgbt"
     },
     {
       "code": "BW",
@@ -238,7 +238,7 @@
       "col": 11,
       "x": 264,
       "y": 24,
-      "symbolId": "flag-bw"
+      "symbolId": "flgbw"
     },
     {
       "code": "BY",
@@ -247,7 +247,7 @@
       "col": 12,
       "x": 288,
       "y": 24,
-      "symbolId": "flag-by"
+      "symbolId": "flgby"
     },
     {
       "code": "BZ",
@@ -256,7 +256,7 @@
       "col": 13,
       "x": 312,
       "y": 24,
-      "symbolId": "flag-bz"
+      "symbolId": "flgbz"
     },
     {
       "code": "CA",
@@ -265,7 +265,7 @@
       "col": 0,
       "x": 0,
       "y": 48,
-      "symbolId": "flag-ca"
+      "symbolId": "flgca"
     },
     {
       "code": "CD",
@@ -274,7 +274,7 @@
       "col": 1,
       "x": 24,
       "y": 48,
-      "symbolId": "flag-cd"
+      "symbolId": "flgcd"
     },
     {
       "code": "CF",
@@ -283,7 +283,7 @@
       "col": 2,
       "x": 48,
       "y": 48,
-      "symbolId": "flag-cf"
+      "symbolId": "flgcf"
     },
     {
       "code": "CH",
@@ -292,7 +292,7 @@
       "col": 3,
       "x": 72,
       "y": 48,
-      "symbolId": "flag-ch"
+      "symbolId": "flgch"
     },
     {
       "code": "CL",
@@ -301,7 +301,7 @@
       "col": 4,
       "x": 96,
       "y": 48,
-      "symbolId": "flag-cl"
+      "symbolId": "flgcl"
     },
     {
       "code": "CM",
@@ -310,7 +310,7 @@
       "col": 5,
       "x": 120,
       "y": 48,
-      "symbolId": "flag-cm"
+      "symbolId": "flgcm"
     },
     {
       "code": "CN",
@@ -319,7 +319,7 @@
       "col": 6,
       "x": 144,
       "y": 48,
-      "symbolId": "flag-cn"
+      "symbolId": "flgcn"
     },
     {
       "code": "CO",
@@ -328,7 +328,7 @@
       "col": 7,
       "x": 168,
       "y": 48,
-      "symbolId": "flag-co"
+      "symbolId": "flgco"
     },
     {
       "code": "CR",
@@ -337,7 +337,7 @@
       "col": 8,
       "x": 192,
       "y": 48,
-      "symbolId": "flag-cr"
+      "symbolId": "flgcr"
     },
     {
       "code": "CU",
@@ -346,7 +346,7 @@
       "col": 9,
       "x": 216,
       "y": 48,
-      "symbolId": "flag-cu"
+      "symbolId": "flgcu"
     },
     {
       "code": "CY",
@@ -355,7 +355,7 @@
       "col": 10,
       "x": 240,
       "y": 48,
-      "symbolId": "flag-cy"
+      "symbolId": "flgcy"
     },
     {
       "code": "CZ",
@@ -364,7 +364,7 @@
       "col": 11,
       "x": 264,
       "y": 48,
-      "symbolId": "flag-cz"
+      "symbolId": "flgcz"
     },
     {
       "code": "DE",
@@ -373,7 +373,7 @@
       "col": 12,
       "x": 288,
       "y": 48,
-      "symbolId": "flag-de"
+      "symbolId": "flgde"
     },
     {
       "code": "DJ",
@@ -382,7 +382,7 @@
       "col": 13,
       "x": 312,
       "y": 48,
-      "symbolId": "flag-dj"
+      "symbolId": "flgdj"
     },
     {
       "code": "DK",
@@ -391,7 +391,7 @@
       "col": 0,
       "x": 0,
       "y": 72,
-      "symbolId": "flag-dk"
+      "symbolId": "flgdk"
     },
     {
       "code": "DM",
@@ -400,7 +400,7 @@
       "col": 1,
       "x": 24,
       "y": 72,
-      "symbolId": "flag-dm"
+      "symbolId": "flgdm"
     },
     {
       "code": "DO",
@@ -409,7 +409,7 @@
       "col": 2,
       "x": 48,
       "y": 72,
-      "symbolId": "flag-do"
+      "symbolId": "flgdo"
     },
     {
       "code": "DZ",
@@ -418,7 +418,7 @@
       "col": 3,
       "x": 72,
       "y": 72,
-      "symbolId": "flag-dz"
+      "symbolId": "flgdz"
     },
     {
       "code": "EC",
@@ -427,7 +427,7 @@
       "col": 4,
       "x": 96,
       "y": 72,
-      "symbolId": "flag-ec"
+      "symbolId": "flgec"
     },
     {
       "code": "EE",
@@ -436,7 +436,7 @@
       "col": 5,
       "x": 120,
       "y": 72,
-      "symbolId": "flag-ee"
+      "symbolId": "flgee"
     },
     {
       "code": "EG",
@@ -445,7 +445,7 @@
       "col": 6,
       "x": 144,
       "y": 72,
-      "symbolId": "flag-eg"
+      "symbolId": "flgeg"
     },
     {
       "code": "ER",
@@ -454,7 +454,7 @@
       "col": 7,
       "x": 168,
       "y": 72,
-      "symbolId": "flag-er"
+      "symbolId": "flger"
     },
     {
       "code": "ES",
@@ -463,7 +463,7 @@
       "col": 8,
       "x": 192,
       "y": 72,
-      "symbolId": "flag-es"
+      "symbolId": "flges"
     },
     {
       "code": "ET",
@@ -472,7 +472,7 @@
       "col": 9,
       "x": 216,
       "y": 72,
-      "symbolId": "flag-et"
+      "symbolId": "flget"
     },
     {
       "code": "FI",
@@ -481,7 +481,7 @@
       "col": 10,
       "x": 240,
       "y": 72,
-      "symbolId": "flag-fi"
+      "symbolId": "flgfi"
     },
     {
       "code": "FJ",
@@ -490,7 +490,7 @@
       "col": 11,
       "x": 264,
       "y": 72,
-      "symbolId": "flag-fj"
+      "symbolId": "flgfj"
     },
     {
       "code": "FM",
@@ -499,7 +499,7 @@
       "col": 12,
       "x": 288,
       "y": 72,
-      "symbolId": "flag-fm"
+      "symbolId": "flgfm"
     },
     {
       "code": "FR",
@@ -508,7 +508,7 @@
       "col": 13,
       "x": 312,
       "y": 72,
-      "symbolId": "flag-fr"
+      "symbolId": "flgfr"
     },
     {
       "code": "GA",
@@ -517,7 +517,7 @@
       "col": 0,
       "x": 0,
       "y": 96,
-      "symbolId": "flag-ga"
+      "symbolId": "flgga"
     },
     {
       "code": "GB",
@@ -526,7 +526,7 @@
       "col": 1,
       "x": 24,
       "y": 96,
-      "symbolId": "flag-gb"
+      "symbolId": "flggb"
     },
     {
       "code": "GD",
@@ -535,7 +535,7 @@
       "col": 2,
       "x": 48,
       "y": 96,
-      "symbolId": "flag-gd"
+      "symbolId": "flggd"
     },
     {
       "code": "GE",
@@ -544,7 +544,7 @@
       "col": 3,
       "x": 72,
       "y": 96,
-      "symbolId": "flag-ge"
+      "symbolId": "flgge"
     },
     {
       "code": "GH",
@@ -553,7 +553,7 @@
       "col": 4,
       "x": 96,
       "y": 96,
-      "symbolId": "flag-gh"
+      "symbolId": "flggh"
     },
     {
       "code": "GM",
@@ -562,7 +562,7 @@
       "col": 5,
       "x": 120,
       "y": 96,
-      "symbolId": "flag-gm"
+      "symbolId": "flggm"
     },
     {
       "code": "GN",
@@ -571,7 +571,7 @@
       "col": 6,
       "x": 144,
       "y": 96,
-      "symbolId": "flag-gn"
+      "symbolId": "flggn"
     },
     {
       "code": "GQ",
@@ -580,7 +580,7 @@
       "col": 7,
       "x": 168,
       "y": 96,
-      "symbolId": "flag-gq"
+      "symbolId": "flggq"
     },
     {
       "code": "GR",
@@ -589,7 +589,7 @@
       "col": 8,
       "x": 192,
       "y": 96,
-      "symbolId": "flag-gr"
+      "symbolId": "flggr"
     },
     {
       "code": "GT",
@@ -598,7 +598,7 @@
       "col": 9,
       "x": 216,
       "y": 96,
-      "symbolId": "flag-gt"
+      "symbolId": "flggt"
     },
     {
       "code": "GW",
@@ -607,7 +607,7 @@
       "col": 10,
       "x": 240,
       "y": 96,
-      "symbolId": "flag-gw"
+      "symbolId": "flggw"
     },
     {
       "code": "GY",
@@ -616,7 +616,7 @@
       "col": 11,
       "x": 264,
       "y": 96,
-      "symbolId": "flag-gy"
+      "symbolId": "flggy"
     },
     {
       "code": "HN",
@@ -625,7 +625,7 @@
       "col": 12,
       "x": 288,
       "y": 96,
-      "symbolId": "flag-hn"
+      "symbolId": "flghn"
     },
     {
       "code": "HR",
@@ -634,7 +634,7 @@
       "col": 13,
       "x": 312,
       "y": 96,
-      "symbolId": "flag-hr"
+      "symbolId": "flghr"
     },
     {
       "code": "HT",
@@ -643,7 +643,7 @@
       "col": 0,
       "x": 0,
       "y": 120,
-      "symbolId": "flag-ht"
+      "symbolId": "flght"
     },
     {
       "code": "HU",
@@ -652,7 +652,7 @@
       "col": 1,
       "x": 24,
       "y": 120,
-      "symbolId": "flag-hu"
+      "symbolId": "flghu"
     },
     {
       "code": "ID",
@@ -661,7 +661,7 @@
       "col": 2,
       "x": 48,
       "y": 120,
-      "symbolId": "flag-id"
+      "symbolId": "flgid"
     },
     {
       "code": "IE",
@@ -670,7 +670,7 @@
       "col": 3,
       "x": 72,
       "y": 120,
-      "symbolId": "flag-ie"
+      "symbolId": "flgie"
     },
     {
       "code": "IL",
@@ -679,7 +679,7 @@
       "col": 4,
       "x": 96,
       "y": 120,
-      "symbolId": "flag-il"
+      "symbolId": "flgil"
     },
     {
       "code": "IN",
@@ -688,7 +688,7 @@
       "col": 5,
       "x": 120,
       "y": 120,
-      "symbolId": "flag-in"
+      "symbolId": "flgin"
     },
     {
       "code": "IQ",
@@ -697,7 +697,7 @@
       "col": 6,
       "x": 144,
       "y": 120,
-      "symbolId": "flag-iq"
+      "symbolId": "flgiq"
     },
     {
       "code": "IR",
@@ -706,7 +706,7 @@
       "col": 7,
       "x": 168,
       "y": 120,
-      "symbolId": "flag-ir"
+      "symbolId": "flgir"
     },
     {
       "code": "IS",
@@ -715,7 +715,7 @@
       "col": 8,
       "x": 192,
       "y": 120,
-      "symbolId": "flag-is"
+      "symbolId": "flgis"
     },
     {
       "code": "IT",
@@ -724,7 +724,7 @@
       "col": 9,
       "x": 216,
       "y": 120,
-      "symbolId": "flag-it"
+      "symbolId": "flgit"
     },
     {
       "code": "JM",
@@ -733,7 +733,7 @@
       "col": 10,
       "x": 240,
       "y": 120,
-      "symbolId": "flag-jm"
+      "symbolId": "flgjm"
     },
     {
       "code": "JO",
@@ -742,7 +742,7 @@
       "col": 11,
       "x": 264,
       "y": 120,
-      "symbolId": "flag-jo"
+      "symbolId": "flgjo"
     },
     {
       "code": "JP",
@@ -751,7 +751,7 @@
       "col": 12,
       "x": 288,
       "y": 120,
-      "symbolId": "flag-jp"
+      "symbolId": "flgjp"
     },
     {
       "code": "KE",
@@ -760,7 +760,7 @@
       "col": 13,
       "x": 312,
       "y": 120,
-      "symbolId": "flag-ke"
+      "symbolId": "flgke"
     },
     {
       "code": "KG",
@@ -769,7 +769,7 @@
       "col": 0,
       "x": 0,
       "y": 144,
-      "symbolId": "flag-kg"
+      "symbolId": "flgkg"
     },
     {
       "code": "KH",
@@ -778,7 +778,7 @@
       "col": 1,
       "x": 24,
       "y": 144,
-      "symbolId": "flag-kh"
+      "symbolId": "flgkh"
     },
     {
       "code": "KI",
@@ -787,7 +787,7 @@
       "col": 2,
       "x": 48,
       "y": 144,
-      "symbolId": "flag-ki"
+      "symbolId": "flgki"
     },
     {
       "code": "KM",
@@ -796,7 +796,7 @@
       "col": 3,
       "x": 72,
       "y": 144,
-      "symbolId": "flag-km"
+      "symbolId": "flgkm"
     },
     {
       "code": "KN",
@@ -805,7 +805,7 @@
       "col": 4,
       "x": 96,
       "y": 144,
-      "symbolId": "flag-kn"
+      "symbolId": "flgkn"
     },
     {
       "code": "KP",
@@ -814,7 +814,7 @@
       "col": 5,
       "x": 120,
       "y": 144,
-      "symbolId": "flag-kp"
+      "symbolId": "flgkp"
     },
     {
       "code": "KR",
@@ -823,7 +823,7 @@
       "col": 6,
       "x": 144,
       "y": 144,
-      "symbolId": "flag-kr"
+      "symbolId": "flgkr"
     },
     {
       "code": "KW",
@@ -832,7 +832,7 @@
       "col": 7,
       "x": 168,
       "y": 144,
-      "symbolId": "flag-kw"
+      "symbolId": "flgkw"
     },
     {
       "code": "KZ",
@@ -841,7 +841,7 @@
       "col": 8,
       "x": 192,
       "y": 144,
-      "symbolId": "flag-kz"
+      "symbolId": "flgkz"
     },
     {
       "code": "LA",
@@ -850,7 +850,7 @@
       "col": 9,
       "x": 216,
       "y": 144,
-      "symbolId": "flag-la"
+      "symbolId": "flgla"
     },
     {
       "code": "LB",
@@ -859,7 +859,7 @@
       "col": 10,
       "x": 240,
       "y": 144,
-      "symbolId": "flag-lb"
+      "symbolId": "flglb"
     },
     {
       "code": "LC",
@@ -868,7 +868,7 @@
       "col": 11,
       "x": 264,
       "y": 144,
-      "symbolId": "flag-lc"
+      "symbolId": "flglc"
     },
     {
       "code": "LI",
@@ -877,7 +877,7 @@
       "col": 12,
       "x": 288,
       "y": 144,
-      "symbolId": "flag-li"
+      "symbolId": "flgli"
     },
     {
       "code": "LK",
@@ -886,7 +886,7 @@
       "col": 13,
       "x": 312,
       "y": 144,
-      "symbolId": "flag-lk"
+      "symbolId": "flglk"
     },
     {
       "code": "LR",
@@ -895,7 +895,7 @@
       "col": 0,
       "x": 0,
       "y": 168,
-      "symbolId": "flag-lr"
+      "symbolId": "flglr"
     },
     {
       "code": "LS",
@@ -904,7 +904,7 @@
       "col": 1,
       "x": 24,
       "y": 168,
-      "symbolId": "flag-ls"
+      "symbolId": "flgls"
     },
     {
       "code": "LT",
@@ -913,7 +913,7 @@
       "col": 2,
       "x": 48,
       "y": 168,
-      "symbolId": "flag-lt"
+      "symbolId": "flglt"
     },
     {
       "code": "LU",
@@ -922,7 +922,7 @@
       "col": 3,
       "x": 72,
       "y": 168,
-      "symbolId": "flag-lu"
+      "symbolId": "flglu"
     },
     {
       "code": "LV",
@@ -931,7 +931,7 @@
       "col": 4,
       "x": 96,
       "y": 168,
-      "symbolId": "flag-lv"
+      "symbolId": "flglv"
     },
     {
       "code": "LY",
@@ -940,7 +940,7 @@
       "col": 5,
       "x": 120,
       "y": 168,
-      "symbolId": "flag-ly"
+      "symbolId": "flgly"
     },
     {
       "code": "MA",
@@ -949,7 +949,7 @@
       "col": 6,
       "x": 144,
       "y": 168,
-      "symbolId": "flag-ma"
+      "symbolId": "flgma"
     },
     {
       "code": "MC",
@@ -958,7 +958,7 @@
       "col": 7,
       "x": 168,
       "y": 168,
-      "symbolId": "flag-mc"
+      "symbolId": "flgmc"
     },
     {
       "code": "MD",
@@ -967,7 +967,7 @@
       "col": 8,
       "x": 192,
       "y": 168,
-      "symbolId": "flag-md"
+      "symbolId": "flgmd"
     },
     {
       "code": "ME",
@@ -976,7 +976,7 @@
       "col": 9,
       "x": 216,
       "y": 168,
-      "symbolId": "flag-me"
+      "symbolId": "flgme"
     },
     {
       "code": "MG",
@@ -985,7 +985,7 @@
       "col": 10,
       "x": 240,
       "y": 168,
-      "symbolId": "flag-mg"
+      "symbolId": "flgmg"
     },
     {
       "code": "MH",
@@ -994,7 +994,7 @@
       "col": 11,
       "x": 264,
       "y": 168,
-      "symbolId": "flag-mh"
+      "symbolId": "flgmh"
     },
     {
       "code": "MK",
@@ -1003,7 +1003,7 @@
       "col": 12,
       "x": 288,
       "y": 168,
-      "symbolId": "flag-mk"
+      "symbolId": "flgmk"
     },
     {
       "code": "ML",
@@ -1012,7 +1012,7 @@
       "col": 13,
       "x": 312,
       "y": 168,
-      "symbolId": "flag-ml"
+      "symbolId": "flgml"
     },
     {
       "code": "MM",
@@ -1021,7 +1021,7 @@
       "col": 0,
       "x": 0,
       "y": 192,
-      "symbolId": "flag-mm"
+      "symbolId": "flgmm"
     },
     {
       "code": "MN",
@@ -1030,7 +1030,7 @@
       "col": 1,
       "x": 24,
       "y": 192,
-      "symbolId": "flag-mn"
+      "symbolId": "flgmn"
     },
     {
       "code": "MR",
@@ -1039,7 +1039,7 @@
       "col": 2,
       "x": 48,
       "y": 192,
-      "symbolId": "flag-mr"
+      "symbolId": "flgmr"
     },
     {
       "code": "MT",
@@ -1048,7 +1048,7 @@
       "col": 3,
       "x": 72,
       "y": 192,
-      "symbolId": "flag-mt"
+      "symbolId": "flgmt"
     },
     {
       "code": "MU",
@@ -1057,7 +1057,7 @@
       "col": 4,
       "x": 96,
       "y": 192,
-      "symbolId": "flag-mu"
+      "symbolId": "flgmu"
     },
     {
       "code": "MV",
@@ -1066,7 +1066,7 @@
       "col": 5,
       "x": 120,
       "y": 192,
-      "symbolId": "flag-mv"
+      "symbolId": "flgmv"
     },
     {
       "code": "MW",
@@ -1075,7 +1075,7 @@
       "col": 6,
       "x": 144,
       "y": 192,
-      "symbolId": "flag-mw"
+      "symbolId": "flgmw"
     },
     {
       "code": "MX",
@@ -1084,7 +1084,7 @@
       "col": 7,
       "x": 168,
       "y": 192,
-      "symbolId": "flag-mx"
+      "symbolId": "flgmx"
     },
     {
       "code": "MY",
@@ -1093,7 +1093,7 @@
       "col": 8,
       "x": 192,
       "y": 192,
-      "symbolId": "flag-my"
+      "symbolId": "flgmy"
     },
     {
       "code": "MZ",
@@ -1102,7 +1102,7 @@
       "col": 9,
       "x": 216,
       "y": 192,
-      "symbolId": "flag-mz"
+      "symbolId": "flgmz"
     },
     {
       "code": "NA",
@@ -1111,7 +1111,7 @@
       "col": 10,
       "x": 240,
       "y": 192,
-      "symbolId": "flag-na"
+      "symbolId": "flgna"
     },
     {
       "code": "NE",
@@ -1120,7 +1120,7 @@
       "col": 11,
       "x": 264,
       "y": 192,
-      "symbolId": "flag-ne"
+      "symbolId": "flgne"
     },
     {
       "code": "NG",
@@ -1129,7 +1129,7 @@
       "col": 12,
       "x": 288,
       "y": 192,
-      "symbolId": "flag-ng"
+      "symbolId": "flgng"
     },
     {
       "code": "NI",
@@ -1138,7 +1138,7 @@
       "col": 13,
       "x": 312,
       "y": 192,
-      "symbolId": "flag-ni"
+      "symbolId": "flgni"
     },
     {
       "code": "NL",
@@ -1147,7 +1147,7 @@
       "col": 0,
       "x": 0,
       "y": 216,
-      "symbolId": "flag-nl"
+      "symbolId": "flgnl"
     },
     {
       "code": "NO",
@@ -1156,7 +1156,7 @@
       "col": 1,
       "x": 24,
       "y": 216,
-      "symbolId": "flag-no"
+      "symbolId": "flgno"
     },
     {
       "code": "NP",
@@ -1165,7 +1165,7 @@
       "col": 2,
       "x": 48,
       "y": 216,
-      "symbolId": "flag-np"
+      "symbolId": "flgnp"
     },
     {
       "code": "NR",
@@ -1174,7 +1174,7 @@
       "col": 3,
       "x": 72,
       "y": 216,
-      "symbolId": "flag-nr"
+      "symbolId": "flgnr"
     },
     {
       "code": "NZ",
@@ -1183,7 +1183,7 @@
       "col": 4,
       "x": 96,
       "y": 216,
-      "symbolId": "flag-nz"
+      "symbolId": "flgnz"
     },
     {
       "code": "OM",
@@ -1192,7 +1192,7 @@
       "col": 5,
       "x": 120,
       "y": 216,
-      "symbolId": "flag-om"
+      "symbolId": "flgom"
     },
     {
       "code": "PA",
@@ -1201,7 +1201,7 @@
       "col": 6,
       "x": 144,
       "y": 216,
-      "symbolId": "flag-pa"
+      "symbolId": "flgpa"
     },
     {
       "code": "PE",
@@ -1210,7 +1210,7 @@
       "col": 7,
       "x": 168,
       "y": 216,
-      "symbolId": "flag-pe"
+      "symbolId": "flgpe"
     },
     {
       "code": "PG",
@@ -1219,7 +1219,7 @@
       "col": 8,
       "x": 192,
       "y": 216,
-      "symbolId": "flag-pg"
+      "symbolId": "flgpg"
     },
     {
       "code": "PH",
@@ -1228,7 +1228,7 @@
       "col": 9,
       "x": 216,
       "y": 216,
-      "symbolId": "flag-ph"
+      "symbolId": "flgph"
     },
     {
       "code": "PK",
@@ -1237,7 +1237,7 @@
       "col": 10,
       "x": 240,
       "y": 216,
-      "symbolId": "flag-pk"
+      "symbolId": "flgpk"
     },
     {
       "code": "PL",
@@ -1246,7 +1246,7 @@
       "col": 11,
       "x": 264,
       "y": 216,
-      "symbolId": "flag-pl"
+      "symbolId": "flgpl"
     },
     {
       "code": "PT",
@@ -1255,7 +1255,7 @@
       "col": 12,
       "x": 288,
       "y": 216,
-      "symbolId": "flag-pt"
+      "symbolId": "flgpt"
     },
     {
       "code": "PW",
@@ -1264,7 +1264,7 @@
       "col": 13,
       "x": 312,
       "y": 216,
-      "symbolId": "flag-pw"
+      "symbolId": "flgpw"
     },
     {
       "code": "PY",
@@ -1273,7 +1273,7 @@
       "col": 0,
       "x": 0,
       "y": 240,
-      "symbolId": "flag-py"
+      "symbolId": "flgpy"
     },
     {
       "code": "QA",
@@ -1282,7 +1282,7 @@
       "col": 1,
       "x": 24,
       "y": 240,
-      "symbolId": "flag-qa"
+      "symbolId": "flgqa"
     },
     {
       "code": "RO",
@@ -1291,7 +1291,7 @@
       "col": 2,
       "x": 48,
       "y": 240,
-      "symbolId": "flag-ro"
+      "symbolId": "flgro"
     },
     {
       "code": "RS",
@@ -1300,7 +1300,7 @@
       "col": 3,
       "x": 72,
       "y": 240,
-      "symbolId": "flag-rs"
+      "symbolId": "flgrs"
     },
     {
       "code": "RU",
@@ -1309,7 +1309,7 @@
       "col": 4,
       "x": 96,
       "y": 240,
-      "symbolId": "flag-ru"
+      "symbolId": "flgru"
     },
     {
       "code": "RW",
@@ -1318,7 +1318,7 @@
       "col": 5,
       "x": 120,
       "y": 240,
-      "symbolId": "flag-rw"
+      "symbolId": "flgrw"
     },
     {
       "code": "SA",
@@ -1327,7 +1327,7 @@
       "col": 6,
       "x": 144,
       "y": 240,
-      "symbolId": "flag-sa"
+      "symbolId": "flgsa"
     },
     {
       "code": "SB",
@@ -1336,7 +1336,7 @@
       "col": 7,
       "x": 168,
       "y": 240,
-      "symbolId": "flag-sb"
+      "symbolId": "flgsb"
     },
     {
       "code": "SC",
@@ -1345,7 +1345,7 @@
       "col": 8,
       "x": 192,
       "y": 240,
-      "symbolId": "flag-sc"
+      "symbolId": "flgsc"
     },
     {
       "code": "SE",
@@ -1354,7 +1354,7 @@
       "col": 9,
       "x": 216,
       "y": 240,
-      "symbolId": "flag-se"
+      "symbolId": "flgse"
     },
     {
       "code": "SG",
@@ -1363,7 +1363,7 @@
       "col": 10,
       "x": 240,
       "y": 240,
-      "symbolId": "flag-sg"
+      "symbolId": "flgsg"
     },
     {
       "code": "SI",
@@ -1372,7 +1372,7 @@
       "col": 11,
       "x": 264,
       "y": 240,
-      "symbolId": "flag-si"
+      "symbolId": "flgsi"
     },
     {
       "code": "SK",
@@ -1381,7 +1381,7 @@
       "col": 12,
       "x": 288,
       "y": 240,
-      "symbolId": "flag-sk"
+      "symbolId": "flgsk"
     },
     {
       "code": "SL",
@@ -1390,7 +1390,7 @@
       "col": 13,
       "x": 312,
       "y": 240,
-      "symbolId": "flag-sl"
+      "symbolId": "flgsl"
     },
     {
       "code": "SM",
@@ -1399,7 +1399,7 @@
       "col": 0,
       "x": 0,
       "y": 264,
-      "symbolId": "flag-sm"
+      "symbolId": "flgsm"
     },
     {
       "code": "SN",
@@ -1408,7 +1408,7 @@
       "col": 1,
       "x": 24,
       "y": 264,
-      "symbolId": "flag-sn"
+      "symbolId": "flgsn"
     },
     {
       "code": "SO",
@@ -1417,7 +1417,7 @@
       "col": 2,
       "x": 48,
       "y": 264,
-      "symbolId": "flag-so"
+      "symbolId": "flgso"
     },
     {
       "code": "SR",
@@ -1426,7 +1426,7 @@
       "col": 3,
       "x": 72,
       "y": 264,
-      "symbolId": "flag-sr"
+      "symbolId": "flgsr"
     },
     {
       "code": "SS",
@@ -1435,7 +1435,7 @@
       "col": 4,
       "x": 96,
       "y": 264,
-      "symbolId": "flag-ss"
+      "symbolId": "flgss"
     },
     {
       "code": "ST",
@@ -1444,7 +1444,7 @@
       "col": 5,
       "x": 120,
       "y": 264,
-      "symbolId": "flag-st"
+      "symbolId": "flgst"
     },
     {
       "code": "SV",
@@ -1453,7 +1453,7 @@
       "col": 6,
       "x": 144,
       "y": 264,
-      "symbolId": "flag-sv"
+      "symbolId": "flgsv"
     },
     {
       "code": "SY",
@@ -1462,7 +1462,7 @@
       "col": 7,
       "x": 168,
       "y": 264,
-      "symbolId": "flag-sy"
+      "symbolId": "flgsy"
     },
     {
       "code": "SZ",
@@ -1471,7 +1471,7 @@
       "col": 8,
       "x": 192,
       "y": 264,
-      "symbolId": "flag-sz"
+      "symbolId": "flgsz"
     },
     {
       "code": "TD",
@@ -1480,7 +1480,7 @@
       "col": 9,
       "x": 216,
       "y": 264,
-      "symbolId": "flag-td"
+      "symbolId": "flgtd"
     },
     {
       "code": "TG",
@@ -1489,7 +1489,7 @@
       "col": 10,
       "x": 240,
       "y": 264,
-      "symbolId": "flag-tg"
+      "symbolId": "flgtg"
     },
     {
       "code": "TH",
@@ -1498,7 +1498,7 @@
       "col": 11,
       "x": 264,
       "y": 264,
-      "symbolId": "flag-th"
+      "symbolId": "flgth"
     },
     {
       "code": "TJ",
@@ -1507,7 +1507,7 @@
       "col": 12,
       "x": 288,
       "y": 264,
-      "symbolId": "flag-tj"
+      "symbolId": "flgtj"
     },
     {
       "code": "TL",
@@ -1516,7 +1516,7 @@
       "col": 13,
       "x": 312,
       "y": 264,
-      "symbolId": "flag-tl"
+      "symbolId": "flgtl"
     },
     {
       "code": "TM",
@@ -1525,7 +1525,7 @@
       "col": 0,
       "x": 0,
       "y": 288,
-      "symbolId": "flag-tm"
+      "symbolId": "flgtm"
     },
     {
       "code": "TN",
@@ -1534,7 +1534,7 @@
       "col": 1,
       "x": 24,
       "y": 288,
-      "symbolId": "flag-tn"
+      "symbolId": "flgtn"
     },
     {
       "code": "TO",
@@ -1543,7 +1543,7 @@
       "col": 2,
       "x": 48,
       "y": 288,
-      "symbolId": "flag-to"
+      "symbolId": "flgto"
     },
     {
       "code": "TR",
@@ -1552,7 +1552,7 @@
       "col": 3,
       "x": 72,
       "y": 288,
-      "symbolId": "flag-tr"
+      "symbolId": "flgtr"
     },
     {
       "code": "TT",
@@ -1561,7 +1561,7 @@
       "col": 4,
       "x": 96,
       "y": 288,
-      "symbolId": "flag-tt"
+      "symbolId": "flgtt"
     },
     {
       "code": "TV",
@@ -1570,7 +1570,7 @@
       "col": 5,
       "x": 120,
       "y": 288,
-      "symbolId": "flag-tv"
+      "symbolId": "flgtv"
     },
     {
       "code": "TZ",
@@ -1579,7 +1579,7 @@
       "col": 6,
       "x": 144,
       "y": 288,
-      "symbolId": "flag-tz"
+      "symbolId": "flgtz"
     },
     {
       "code": "UA",
@@ -1588,7 +1588,7 @@
       "col": 7,
       "x": 168,
       "y": 288,
-      "symbolId": "flag-ua"
+      "symbolId": "flgua"
     },
     {
       "code": "UG",
@@ -1597,7 +1597,7 @@
       "col": 8,
       "x": 192,
       "y": 288,
-      "symbolId": "flag-ug"
+      "symbolId": "flgug"
     },
     {
       "code": "US",
@@ -1606,7 +1606,7 @@
       "col": 9,
       "x": 216,
       "y": 288,
-      "symbolId": "flag-us"
+      "symbolId": "flgus"
     },
     {
       "code": "UY",
@@ -1615,7 +1615,7 @@
       "col": 10,
       "x": 240,
       "y": 288,
-      "symbolId": "flag-uy"
+      "symbolId": "flguy"
     },
     {
       "code": "UZ",
@@ -1624,7 +1624,7 @@
       "col": 11,
       "x": 264,
       "y": 288,
-      "symbolId": "flag-uz"
+      "symbolId": "flguz"
     },
     {
       "code": "VC",
@@ -1633,7 +1633,7 @@
       "col": 12,
       "x": 288,
       "y": 288,
-      "symbolId": "flag-vc"
+      "symbolId": "flgvc"
     },
     {
       "code": "VE",
@@ -1642,7 +1642,7 @@
       "col": 13,
       "x": 312,
       "y": 288,
-      "symbolId": "flag-ve"
+      "symbolId": "flgve"
     },
     {
       "code": "VN",
@@ -1651,7 +1651,7 @@
       "col": 0,
       "x": 0,
       "y": 312,
-      "symbolId": "flag-vn"
+      "symbolId": "flgvn"
     },
     {
       "code": "VU",
@@ -1660,7 +1660,7 @@
       "col": 1,
       "x": 24,
       "y": 312,
-      "symbolId": "flag-vu"
+      "symbolId": "flgvu"
     },
     {
       "code": "WS",
@@ -1669,7 +1669,7 @@
       "col": 2,
       "x": 48,
       "y": 312,
-      "symbolId": "flag-ws"
+      "symbolId": "flgws"
     },
     {
       "code": "YE",
@@ -1678,7 +1678,7 @@
       "col": 3,
       "x": 72,
       "y": 312,
-      "symbolId": "flag-ye"
+      "symbolId": "flgye"
     },
     {
       "code": "ZA",
@@ -1687,7 +1687,7 @@
       "col": 4,
       "x": 96,
       "y": 312,
-      "symbolId": "flag-za"
+      "symbolId": "flgza"
     },
     {
       "code": "ZM",
@@ -1696,7 +1696,7 @@
       "col": 5,
       "x": 120,
       "y": 312,
-      "symbolId": "flag-zm"
+      "symbolId": "flgzm"
     },
     {
       "code": "ZW",
@@ -1705,7 +1705,7 @@
       "col": 6,
       "x": 144,
       "y": 312,
-      "symbolId": "flag-zw"
+      "symbolId": "flgzw"
     }
   ]
 }
